@@ -10,13 +10,13 @@
   --bg: #0f1117;
   --bg-secondary: #161a22;
   --text: #e6e6eb;
-  --muted: #9aa0aa;
+  --muted: #a5aab3;
   --accent: #4f8cff;
 }
 
 .light {
   --bg: #ffffff;
-  --bg-secondary: #f2f4f8;
+  --bg-secondary: #d8dadd;
   --text: #111;
   --muted: #555;
 }
@@ -90,4 +90,89 @@ body {
 #content ul {
   margin-left: 1.5rem;
   margin-bottom: 1rem;
+}
+
+/* CATEGORY STRUCTURE */
+
+.category {
+  margin-bottom: 4px;
+}
+
+.category-header {
+  font-weight: 600;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  cursor: pointer;
+  user-select: none;
+  padding: 6px 8px;
+}
+
+.category-header:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.category-content {
+  margin-left: 4px;
+}
+
+/* GUIDE BUTTONS */
+
+.guide-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.guide-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.category-arrow {
+  display: inline-block;
+  transition: transform 0.15s ease;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.category.collapsed > .category-header .category-arrow {
+  transform: rotate(-90deg);
+}
+
+.guide-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-left: 8px;
+}
+
+.guide-row input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.category-content {
+  overflow: hidden;            /* hide content when collapsing */
+  max-height: 1000px;          /* arbitrary large value for expanded state */
+  transition: max-height 0.25s ease, opacity 0.25s ease;
+  opacity: 1;
+}
+
+.category-content {
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.category-content {
+  overflow: hidden;
+  opacity: 1;
 }
