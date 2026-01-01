@@ -3,7 +3,7 @@
     "title": "What is League of Legends",
     "category": ["Getting Started", "League of Legends"],
     "tags": [""],
-    "file": "guides/getting-started/chapter1/what_is_lol.md"
+    "file": "guides/mid/champions/akali.md"
   },
 
   {
@@ -20,4 +20,5 @@
     "file": "guides/mid/champions/akali.md"
   }
 ]
+
 
