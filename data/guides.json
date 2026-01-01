@@ -1,24 +1,11 @@
 [
   {
-    "title": "What is League of Legends",
-    "category": ["Getting Started", "League of Legends"],
-    "tags": [""],
-    "file": "guides/mid/champions/akali.md"
-  },
-
-  {
     "title": "Akali Guide",
     "category": ["Mid", "Champions"],
     "tags": ["mid", "mid lane", "midlane", "assassin", "assasin", "melee", "champions", "champs"],
     "file": "guides/mid/champions/akali.md"
   },
-
-  {
-    "title": "Akali Guide",
-    "category": ["Mid", "Macro"],
-    "tags": ["mid", "mid lane", "midlane", "assassin", "assasin", "melee", "champions", "champs"],
-    "file": "guides/mid/champions/akali.md"
-  }
 ]
+
 
 
