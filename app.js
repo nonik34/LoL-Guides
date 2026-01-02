@@ -269,12 +269,17 @@ function renderGuideList(list) {
 
 /* ---------- LOAD MARKDOWN GUIDE ---------- */
 function loadGuide(path) {
-  fetch(path)
+  // Convert your relative path to raw GitHub URL
+  const rawPath = path.replace(
+    /^guides\//,
+    "https://raw.githubusercontent.com/nonik34/LoL-Guides/main/guides/"
+  );
+
+  fetch(rawPath)
     .then(res => res.text())
     .then(raw => {
       const { meta, body } = parseGuide(raw);
 
-      // Render main content and infobox only
       contentEl.innerHTML = `
         <div class="guide-layout">
           <div class="guide-main">
@@ -283,14 +288,12 @@ function loadGuide(path) {
           ${renderInfobox(meta)}
         </div>
       `;
-
       contentEl.scrollTop = 0;
 
-      // Remove any existing floating button
+      // Floating button
       const oldBtn = document.querySelector('.floating-video-btn');
       if (oldBtn) oldBtn.remove();
 
-      // If videos exist, create a floating button for the first one
       if (meta.videos) {
         const firstVideo = meta.videos.split(',')[0].trim();
         const btn = document.createElement('a');
@@ -302,6 +305,7 @@ function loadGuide(path) {
       }
     });
 }
+
 
 
 /* ---------- SEARCH ---------- */
