@@ -274,18 +274,32 @@ function loadGuide(path) {
     .then(raw => {
       const { meta, body } = parseGuide(raw);
 
+      // Render main content and infobox only
       contentEl.innerHTML = `
         <div class="guide-layout">
           <div class="guide-main">
             ${marked.parse(body)}
-            ${renderVideos(meta)}
-            ${renderImages(meta)}
           </div>
           ${renderInfobox(meta)}
         </div>
       `;
 
       contentEl.scrollTop = 0;
+
+      // Remove any existing floating button
+      const oldBtn = document.querySelector('.floating-video-btn');
+      if (oldBtn) oldBtn.remove();
+
+      // If videos exist, create a floating button for the first one
+      if (meta.videos) {
+        const firstVideo = meta.videos.split(',')[0].trim();
+        const btn = document.createElement('a');
+        btn.href = firstVideo;
+        btn.target = "_blank";
+        btn.className = 'floating-video-btn';
+        btn.textContent = 'Watch Video Guide';
+        document.body.appendChild(btn);
+      }
     });
 }
 
