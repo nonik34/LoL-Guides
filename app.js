@@ -23,6 +23,74 @@ function setCollapsedCategories(arr) {
 
 let guides = [];
 
+function parseGuide(raw) {
+  if (!raw.startsWith("---")) {
+    return { meta: {}, body: raw };
+  }
+
+  const parts = raw.split("---");
+  const metaBlock = parts[1];
+  const body = parts.slice(2).join("---").trim();
+
+  const meta = {};
+
+  metaBlock.split("\n").forEach(line => {
+    const trimmed = line.trim();
+    if (!trimmed) return;
+
+    const [key, ...rest] = trimmed.split(":");
+    meta[key.trim()] = rest.join(":").trim();
+  });
+
+  return { meta, body };
+}
+
+function renderInfobox(meta) {
+  if (!meta || Object.keys(meta).length === 0) return "";
+
+  return `
+    <div class="guide-info-wrapper">
+      <div class="info-icon">ⓘ</div>
+      <aside class="guide-infobox">
+        ${meta.role ? `<div><strong>Role:</strong> ${meta.role}</div>` : ""}
+        ${meta.champion ? `<div><strong>Champion:</strong> ${meta.champion}</div>` : ""}
+        ${meta.difficulty ? `<div><strong>Difficulty:</strong> ${meta.difficulty}</div>` : ""}
+        ${meta.lastEdited ? `<div><strong>Last revision on:</strong> ${meta.lastEdited}</div>` : ""}
+      </aside>
+    </div>
+  `;
+}
+
+
+function renderVideos(meta) {
+  if (!meta.videos) return "";
+
+  const videos = meta.videos.split(",").map(v => v.trim());
+
+  return `
+    <section class="guide-videos">
+      ${videos
+        .map(
+          v => `<iframe src="${v}" allowfullscreen loading="lazy"></iframe>`
+        )
+        .join("")}
+    </section>
+  `;
+}
+
+function renderImages(meta) {
+  if (!meta.images) return "";
+
+  const images = meta.images.split(",").map(i => i.trim());
+
+  return `
+    <section class="guide-images">
+      ${images.map(src => `<img src="${src}" />`).join("")}
+    </section>
+  `;
+}
+
+
 /* ---------- LOAD GUIDES METADATA ---------- */
 fetch("data/guides.json")
   .then(res => res.json())
@@ -203,11 +271,24 @@ function renderGuideList(list) {
 function loadGuide(path) {
   fetch(path)
     .then(res => res.text())
-    .then(md => {
-      contentEl.innerHTML = marked.parse(md);
+    .then(raw => {
+      const { meta, body } = parseGuide(raw);
+
+      contentEl.innerHTML = `
+        <div class="guide-layout">
+          <div class="guide-main">
+            ${marked.parse(body)}
+            ${renderVideos(meta)}
+            ${renderImages(meta)}
+          </div>
+          ${renderInfobox(meta)}
+        </div>
+      `;
+
       contentEl.scrollTop = 0;
     });
 }
+
 
 /* ---------- SEARCH ---------- */
 searchEl.addEventListener("input", () => {
