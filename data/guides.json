@@ -1,12 +1,114 @@
 [
   {
+    "title": "What is a MOBA?",
+    "category": ["Getting started", "What is League of Legends"],
+    "tags": [""],
+    "file": "guides/getting-started/what-is-lol/what-is-a-moba.md"
+  },
+
+  {
+    "title": "What is League of Legends?",
+    "category": ["Getting started", "What is League of Legends"],
+    "tags": [""],
+    "file": "guides/getting-started/what-is-lol/what-is-league-of-legends.md"
+  },
+
+  {
+    "title": "A brief history of League of Legends",
+    "category": ["Getting started", "What is League of Legends"],
+    "tags": [""],
+    "file": "guides/getting-started/what-is-lol/a-brief-history-of-lol.md"
+  },
+
+  {
+    "title": "The Nexus",
+    "category": ["Getting started", "The goal of the game"],
+    "tags": [""],
+    "file": "guides/getting-started/the-goal-of-the-game/the-nexus.md"
+  },
+
+  {
+    "title": "Towers, Inhibitors, and Progression",
+    "category": ["Getting started", "The goal of the game"],
+    "tags": [""],
+    "file": "guides/getting-started/the-goal-of-the-game/tower-inhib.md"
+  },
+
+  {
+    "title": "Why kills are not the objective",
+    "category": ["Getting started", "The goal of the game"],
+    "tags": [""],
+    "file": "guides/getting-started/the-goal-of-the-game/why-kills-arent-obj.md"
+  },
+
+  {
+    "title": "The Lanes",
+    "category": ["Getting started", "The Map"],
+    "tags": [""],
+    "file": "guides/getting-started/the-map/the-lanes.md"
+  },
+
+  {
+    "title": "The Jungle",
+    "category": ["Getting started", "The Map"],
+    "tags": [""],
+    "file": "guides/getting-started/the-map/the-jungle.md"
+  },
+
+  {
+    "title": "River and neutral Objectives",
+    "category": ["Getting started", "The Map"],
+    "tags": [""],
+    "file": "guides/getting-started/the-map/river-and-neutrals.md"
+  },
+
+  {
+    "title": "What is a Champion?",
+    "category": ["Getting started", "Champions"],
+    "tags": [""],
+    "file": "guides/getting-started/champions/what-is-a-champ.md"
+  },
+
+  {
+    "title": "Champion Abilities",
+    "category": ["Getting started", "Champions"],
+    "tags": [""],
+    "file": "guides/getting-started/champions/champ-abilities.md"
+  },
+
+  {
+    "title": "Champion Classes",
+    "category": ["Getting started", "Champions"],
+    "tags": [""],
+    "file": "guides/getting-started/champions/classes.md"
+  },
+
+  {
+    "title": "Minions",
+    "category": ["Getting started", "Basic gameplay loop"],
+    "tags": [""],
+    "file": "guides/getting-started/basic-gameplay-loop/minions.md"
+  },
+
+  {
+    "title": "Gold",
+    "category": ["Getting started", "Basic gameplay loop"],
+    "tags": [""],
+    "file": "guides/getting-started/basic-gameplay-loop/gold.md"
+  },
+
+  {
+    "title": "Experience and Levels",
+    "category": ["Getting started", "Basic gameplay loop"],
+    "tags": [""],
+    "file": "guides/getting-started/basic-gameplay-loop/exp.md"
+  },
+
+  {
     "title": "Akali Guide",
     "category": ["Mid", "Champions"],
     "tags": ["mid", "mid lane", "midlane", "assassin", "assasin", "melee", "champions", "champs"],
     "file": "guides/mid/champions/akali.md"
   }
 ]
-
-
-
 
