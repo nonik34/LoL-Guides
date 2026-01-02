@@ -1,10 +1,4 @@
----
-role: Mid
-champion: Akali
-difficulty: Intermediate
-lastEdited: 06-08-2025
-videos: https://www.youtube.com/
----
+
 
 # AKALI GUIDE
 
@@ -97,5 +91,6 @@ pressure by doing nothing
 If you hit all 6 enemy minions with a q, press s to stop in pace to make sure you can hit them again  
 
 doing his saves up to 6-7 seconds on shoving making you faster on rotates to teamfights or into the enemy jg  
+
 
 
