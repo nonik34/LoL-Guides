@@ -352,3 +352,18 @@ body {
   position: relative;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:link {
+  color: white;
+}
