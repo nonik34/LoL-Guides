@@ -105,10 +105,94 @@
   },
 
   {
+    "title": "What are stats?",
+    "category": ["Getting started", "Stats"],
+    "tags": [""],
+    "file": "guides/getting-started/stats/what-are-stats.md"
+  },
+
+  {
+    "title": "Core stats",
+    "category": ["Getting started", "Stats"],
+    "tags": [""],
+    "file": "guides/getting-started/stats/core-stats.md"
+  },
+
+  {
+    "title": "How stats interact",
+    "category": ["Getting started", "Stats"],
+    "tags": [""],
+    "file": "guides/getting-started/stats/how-stats-interact.md"
+  },
+
+  {
+    "title": "What are items?",
+    "category": ["Getting started", "Items"],
+    "tags": [""],
+    "file": "guides/getting-started/items/what-are-items.md"
+  },
+
+  {
+    "title": "Item components",
+    "category": ["Getting started", "Items"],
+    "tags": [""],
+    "file": "guides/getting-started/items/item-components.md"
+  },
+
+  {
+    "title": "Item categories",
+    "category": ["Getting started", "Items"],
+    "tags": [""],
+    "file": "guides/getting-started/items/item-categories.md"
+  },
+
+  {
+    "title": "What are runes?",
+    "category": ["Getting started", "Runes and Summoner Spells"],
+    "tags": [""],
+    "file": "guides/getting-started/runes-and-summs/what-are-runes.md"
+  },
+
+  {
+    "title": "Why runes matter",
+    "category": ["Getting started", "Runes and Summoner Spells"],
+    "tags": [""],
+    "file": "guides/getting-started/runes-and-summs/why-runes-matter.md"
+  },
+
+  {
+    "title": "What are Summoner Spells?",
+    "category": ["Getting started", "Runes and Summoner Spells"],
+    "tags": [""],
+    "file": "guides/getting-started/runes-and-summs/summs.md"
+  },
+
+  {
+    "title": "What is a Role?",
+    "category": ["Getting started", "Roles"],
+    "tags": [""],
+    "file": "guides/getting-started/roles/what-is-a-role.md"
+  },
+
+  {
+    "title": "The five Roles",
+    "category": ["Getting started", "Roles"],
+    "tags": [""],
+    "file": "guides/getting-started/roles/the-five-roles.md"
+  },
+
+  {
+    "title": "The correct mindset",
+    "category": ["Getting started", "How to improve"],
+    "tags": [""],
+    "file": "guides/getting-started/how-to-improve/the-correct-mindset.md"
+  },
+
+  {
     "title": "Akali Guide",
-    "category": ["Mid", "Champions"],
+    "category": ["Champions", "Mid"],
     "tags": ["mid", "mid lane", "midlane", "assassin", "assasin", "melee", "champions", "champs"],
-    "file": "guides/mid/champions/akali.md"
+    "file": "guides/champions/mid/akali.md"
   }
 ]
 
