@@ -19,8 +19,7 @@ When a Nexus is destroyed:
 The Nexus does not move or attack on its own.  
 Instead, it spawns minions every 30 seconds.  
 It is protected by other structures and by enemy champions.  
-The Nexus is invulnerable if all three inhibitors  
-or at least one of the turrets in front it are intact.
+The Nexus is invulnerable if all three inhibitors or at least one of the turrets in front it are intact.
 
 Everything you do in a match helps your team reach and destroy the enemy Nexus.  
 
@@ -29,3 +28,4 @@ This includes:
 - Gaining gold and experience  
 - Taking objectives on the map  
 - Destroying enemy structures  
+
