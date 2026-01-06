@@ -2,7 +2,7 @@
 videos:
 chapter: 2
 section: 2.1
-lastEdited: 02-01-2026
+lastEdited: 06-01-2026
 ---
 
 # The Nexus
@@ -17,7 +17,10 @@ When a Nexus is destroyed:
 - The team that destroyed it wins  
 
 The Nexus does not move or attack on its own.  
+Instead, it spawns minions every 30 seconds.  
 It is protected by other structures and by enemy champions.  
+The Nexus is invulnerable if all three inhibitors  
+or at least one of the turrets in front it are intact.
 
 Everything you do in a match helps your team reach and destroy the enemy Nexus.  
 
