@@ -2,7 +2,7 @@
 videos:
 chapter: 2
 section: 2.2
-lastEdited: 02-01-2026
+lastEdited: 06-01-2026
 ---
 
 # Towers, Inhibitors, and Progression
@@ -52,3 +52,4 @@ To win a game, your team must:
 
 Alternatively, a team can decide to surrender after 15 minutes have passed.  
 This action immediately destorys the surrendering teams Nexus and ends the game.
+
