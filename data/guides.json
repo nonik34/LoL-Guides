@@ -193,6 +193,15 @@
     "category": ["Champions", "Mid"],
     "tags": ["mid", "mid lane", "midlane", "assassin", "assasin", "melee", "champions", "champs"],
     "file": "guides/champions/mid/akali.md"
+  },
+
+  {
+    "title": "Kaisa Guide",
+    "category": ["Champions", "Bot"],
+    "tags": [""],
+    "file": "guides/champions/adc/kaisa.md"
   }
 ]
+]
+
 
