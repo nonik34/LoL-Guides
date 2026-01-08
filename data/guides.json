@@ -188,6 +188,17 @@
     "file": "guides/getting-started/how-to-improve/the-correct-mindset.md"
   },
 
+
+
+  {
+    "title": "General ADC guide",
+    "category": ["Roles", "ADC"],
+    "tags": ["bot"],
+    "file": "guides/roles/adc/adc-general.md"
+  },
+
+
+
   {
     "title": "Akali Guide",
     "category": ["Champions", "Mid"],
@@ -202,6 +213,6 @@
     "file": "guides/champions/adc/kaisa.md"
   }
 ]
-]
+
 
 
