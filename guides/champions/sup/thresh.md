@@ -36,7 +36,7 @@ dont forget, going for unlikely q angles is not bad if you cant get punished for
 ## Mind Games:  
 hook is super easy to hit if enemies are: hugging a wall; or hugging eachother (since 2 people dodging a hook is less likely than one, and they bodyblock eachother)  
 misdirection: walk one way, hook the other  
-when chasing someone and you need to lang a hook, click in front of them then hook behind (without issuing a movement command)  
+when chasing someone and you need to land a hook, click in front of them then hook behind (without issuing a movement command)  
 this will make them think ur hooking in front of them and turn back walking straight into ur hook  
 over the course of a game, try to mix up where you throw ur hooks  
 usually the same trick will only work twice against the same player *(fool me once, shame on you; fool me twice, shame on me; fool me three times, now thats just straight BS)*  
