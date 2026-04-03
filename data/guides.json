@@ -208,9 +208,16 @@
 
   {
     "title": "Kaisa Guide",
-    "category": ["Champions", "Bot"],
+    "category": ["Champions", "Bottom"],
     "tags": [""],
     "file": "guides/champions/adc/kaisa.md"
+  },
+
+  {
+    "title": "Thresh Guide",
+    "category": ["Champions", "Support"],
+    "tags": [""],
+    "file": "guides/champions/sup/thresh.md"
   }
 ]
 
